@@ -1,0 +1,283 @@
+<x-layouts.app title="Fuzzy Fleur | Flowers That Never Fade">
+
+    <x-navbar />
+
+    <main>
+
+        <x-hero />
+
+        {{-- Features --}}
+        <section id="features" class="bg-white py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-5 lg:px-8">
+
+                <div class="mx-auto max-w-2xl text-center">
+                    <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#c97878]">
+                        Why Fuzzy Fleur
+                    </span>
+
+                    <h2 class="mt-3 text-3xl font-bold text-[#493636] sm:text-4xl">
+                        Small details, beautiful memories
+                    </h2>
+
+                    <p class="mt-4 text-[#806f6f]">
+                        Every flower is thoughtfully crafted to make your gift
+                        feel personal and meaningful.
+                    </p>
+                </div>
+
+                <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <x-feature-card
+                        icon="🌸"
+                        title="Handmade with Love"
+                        description="Each flower is carefully handcrafted with attention to detail."
+                    />
+
+                    <x-feature-card
+                        icon="✨"
+                        title="Long-Lasting Beauty"
+                        description="Enjoy beautiful flowers that do not wilt like traditional bouquets."
+                    />
+
+                    <x-feature-card
+                        icon="🎨"
+                        title="Fully Customizable"
+                        description="Choose colors, flower styles, and arrangements that match your occasion."
+                    />
+
+                    <x-feature-card
+                        icon="💝"
+                        title="Perfect for Gifts"
+                        description="A thoughtful choice for birthdays, anniversaries, graduations, and more."
+                    />
+
+                    <x-feature-card
+                        icon="💰"
+                        title="Affordable"
+                        description="Beautiful handmade arrangements at friendly and accessible prices."
+                    />
+
+                    <x-feature-card
+                        icon="🎁"
+                        title="Made to Order"
+                        description="Your bouquet is prepared with care based on your selected design."
+                    />
+
+                </div>
+            </div>
+        </section>
+
+        {{-- Product Showcase --}}
+        <section class="bg-[#fffaf8] py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-5 lg:px-8">
+
+                <div class="grid items-center gap-12 lg:grid-cols-2">
+
+                    <div>
+                        <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#c97878]">
+                            Our Collection
+                        </span>
+
+                        <h2 class="mt-3 text-3xl font-bold text-[#493636] sm:text-4xl">
+                            A bouquet made for your moment
+                        </h2>
+
+                        <p class="mt-5 leading-7 text-[#806f6f]">
+                            From simple single flowers to thoughtful full bouquets,
+                            discover handmade pieces designed to make someone smile.
+                        </p>
+
+                        <div class="mt-8 space-y-5">
+
+                            <div class="flex gap-4">
+                                <div class="text-2xl">💐</div>
+                                <div>
+                                    <h3 class="font-semibold text-[#493636]">Signature Bouquets</h3>
+                                    <p class="mt-1 text-sm text-[#806f6f]">
+                                        Carefully arranged fuzzy-wire flowers for special occasions.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="text-2xl">🌷</div>
+                                <div>
+                                    <h3 class="font-semibold text-[#493636]">Single Flowers</h3>
+                                    <p class="mt-1 text-sm text-[#806f6f]">
+                                        Simple and sweet gifts for everyday appreciation.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4">
+                                <div class="text-2xl">🎀</div>
+                                <div>
+                                    <h3 class="font-semibold text-[#493636]">Custom Gifts</h3>
+                                    <p class="mt-1 text-sm text-[#806f6f]">
+                                        Personalized arrangements created around your idea.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex min-h-64 items-center justify-center rounded-[2rem] bg-[#f5dcd8] text-8xl shadow-sm">
+                            🌹
+                        </div>
+
+                        <div class="mt-10 flex min-h-64 items-center justify-center rounded-[2rem] bg-[#eadce8] text-8xl shadow-sm">
+                            🌷
+                        </div>
+
+                        <div class="flex min-h-64 items-center justify-center rounded-[2rem] bg-[#f3e5d0] text-8xl shadow-sm">
+                            🌻
+                        </div>
+
+                        <div class="mt-10 flex min-h-64 items-center justify-center rounded-[2rem] bg-[#e2e8d9] text-8xl shadow-sm">
+                            💐
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        {{-- Pricing --}}
+        <section id="pricing" class="bg-white py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-5 lg:px-8">
+
+                <div class="mx-auto max-w-2xl text-center">
+                    <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#c97878]">
+                        Simple Pricing
+                    </span>
+
+                    <h2 class="mt-3 text-3xl font-bold text-[#493636] sm:text-4xl">
+                        Choose your perfect bouquet
+                    </h2>
+
+                    <p class="mt-4 text-[#806f6f]">
+                        Beautiful options for every budget and occasion.
+                    </p>
+                </div>
+
+                <div class="mt-12 grid gap-6 lg:grid-cols-3">
+
+                    <x-pricing-card
+                        name="Mini"
+                        price="199"
+                        description="A simple little surprise."
+                        :features="[
+                            '1–2 handmade flowers',
+                            'Simple wrapping',
+                            'Choice of flower color',
+                            'Gift-ready presentation'
+                        ]"
+                    />
+
+                    <x-pricing-card
+                        name="Classic"
+                        price="399"
+                        description="Our most-loved arrangement."
+                        :featured="true"
+                        :features="[
+                            '3–5 handmade flowers',
+                            'Premium wrapping',
+                            'Custom color combination',
+                            'Personalized message card'
+                        ]"
+                    />
+
+                    <x-pricing-card
+                        name="Premium"
+                        price="699"
+                        description="A bigger gesture for someone special."
+                        :features="[
+                            '6–10 handmade flowers',
+                            'Premium bouquet arrangement',
+                            'Fully customizable colors',
+                            'Personalized message card'
+                        ]"
+                    />
+
+                </div>
+            </div>
+        </section>
+
+        {{-- Testimonials --}}
+        <section id="testimonials" class="bg-[#fffaf8] py-20 lg:py-24">
+            <div class="mx-auto max-w-7xl px-5 lg:px-8">
+
+                <div class="mx-auto max-w-2xl text-center">
+                    <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#c97878]">
+                        Customer Love
+                    </span>
+
+                    <h2 class="mt-3 text-3xl font-bold text-[#493636] sm:text-4xl">
+                        Loved by flower-givers
+                    </h2>
+
+                    <p class="mt-4 text-[#806f6f]">
+                        A little flower can create a big memory.
+                    </p>
+                </div>
+
+                <div class="mt-12 grid gap-6 md:grid-cols-3">
+
+                    <x-testimonial-card
+                        name="Sofia Reyes"
+                        role="Happy Customer"
+                        initial="S"
+                        review="The bouquet was so cute and the quality was amazing. It made the perfect birthday gift."
+                    />
+
+                    <x-testimonial-card
+                        name="Mia Santos"
+                        role="Repeat Customer"
+                        initial="M"
+                        review="I love that the flowers can last for a long time. The custom colors made my gift extra special."
+                    />
+
+                    <x-testimonial-card
+                        name="Andrea Cruz"
+                        role="Customer"
+                        initial="A"
+                        review="The design was beautiful and the handmade details made the bouquet feel very personal."
+                    />
+
+                </div>
+            </div>
+        </section>
+
+        {{-- CTA --}}
+        <section class="px-5 py-20 lg:px-8">
+            <div class="mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-[#493636] px-6 py-16 text-center shadow-xl sm:px-12">
+
+                <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#f1c5c0]">
+                    Make it memorable
+                </span>
+
+                <h2 class="mx-auto mt-4 max-w-2xl text-3xl font-bold text-white sm:text-4xl">
+                    Give flowers that stay beautiful.
+                </h2>
+
+                <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-[#e9d8d5] sm:text-base">
+                    Whether it is a celebration or a simple “I’m thinking of you,”
+                    Fuzzy Fleur helps you turn your feelings into something beautiful.
+                </p>
+
+                <div class="mt-8">
+                    <x-button href="#pricing">
+                        Start Your Order
+                    </x-button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <x-footer />
+
+</x-layouts.app>
