@@ -34,11 +34,30 @@
             <div>
                 <h3 class="font-semibold text-[#493636]">Contact</h3>
 
-                <div class="mt-4 space-y-3 text-sm text-[#806f6f]">
-                    <p>📧 hello@fuzzyfleur.com</p>
-                    <p>📱 +63 900 123 4567</p>
-                    <p>📍 Philippines</p>
-                    <p>📸 @fuzzyfleur</p>
+                <div>
+                    <h3 class="font-semibold text-[#493636]">
+                        Contact
+                    </h3>
+
+                    <div class="mt-4 space-y-3 text-sm text-[#806f6f]">
+                        <p>📧 hello@fuzzyfleur.com</p>
+                        <p>📱 +63 900 123 4567</p>
+                        <p>📍 Philippines</p>
+
+                        <div class="flex gap-4 pt-2">
+                            <a href="#"
+                            class="transition hover:text-[#c97878]"
+                            aria-label="Facebook">
+                                Facebook
+                            </a>
+
+                            <a href="#"
+                            class="transition hover:text-[#c97878]"
+                            aria-label="Instagram">
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

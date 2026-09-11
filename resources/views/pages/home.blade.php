@@ -296,7 +296,7 @@
                     </h2>
 
                     <p class="mt-4 text-[#806f6f]">
-                        Beautiful options for every budget and occasion.
+                        Beautiful handmade options for different budgets and occasions.
                     </p>
                 </div>
 
@@ -340,6 +340,11 @@
                     />
 
                 </div>
+
+                <p class="mt-8 text-center text-xs text-[#9a8585]">
+                    *Prices shown are sample project pricing for demonstration purposes.
+                </p>
+
             </div>
         </section>
 
@@ -357,7 +362,7 @@
                     </h2>
 
                     <p class="mt-4 text-[#806f6f]">
-                        A little flower can create a big memory.
+                        Thoughtful handmade flowers for meaningful moments.
                     </p>
                 </div>
 
@@ -385,6 +390,7 @@
                     />
 
                 </div>
+
             </div>
         </section>
 
@@ -392,23 +398,33 @@
         <section class="px-5 py-20 lg:px-8">
             <div class="mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-[#493636] px-6 py-16 text-center shadow-xl sm:px-12">
 
-                <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#f1c5c0]">
-                    Make it memorable
-                </span>
+                <div class="mx-auto max-w-2xl">
 
-                <h2 class="mx-auto mt-4 max-w-2xl text-3xl font-bold text-white sm:text-4xl">
-                    Give flowers that stay beautiful.
-                </h2>
+                    <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#f1c5c0]">
+                        Make it memorable
+                    </span>
 
-                <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-[#e9d8d5] sm:text-base">
-                    Whether it is a celebration or a simple “I’m thinking of you,”
-                    Fuzzy Fleur helps you turn your feelings into something beautiful.
-                </p>
+                    <h2 class="mt-4 text-3xl font-bold text-white sm:text-4xl">
+                        Give flowers that stay beautiful.
+                    </h2>
 
-                <div class="mt-8">
-                    <x-button href="#pricing">
-                        Start Your Order
-                    </x-button>
+                    <p class="mx-auto mt-4 max-w-xl text-sm leading-7 text-[#e9d8d5] sm:text-base">
+                        Whether it is a celebration or a simple
+                        “I’m thinking of you,” Fuzzy Fleur helps you turn
+                        your feelings into something beautiful.
+                    </p>
+
+                    <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+                        <x-button href="#pricing">
+                            Start Your Order
+                        </x-button>
+
+                        <a href="#contact"
+                        class="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
+                            Contact Us
+                        </a>
+                    </div>
+
                 </div>
 
             </div>
