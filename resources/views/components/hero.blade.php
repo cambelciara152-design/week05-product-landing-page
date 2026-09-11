@@ -40,12 +40,31 @@
             <div class="absolute -bottom-10 -left-10 h-48 w-48 rounded-full bg-[#ead8e5] blur-3xl"></div>
 
             <div class="relative mx-auto max-w-lg rounded-[2.5rem] bg-[#f9e9e5] p-8 shadow-2xl shadow-[#8b6666]/10">
-                <div class="rounded-[2rem] bg-white p-8 text-center shadow-sm">
-                    <div class="text-8xl">💐</div>
+                <div class="overflow-hidden rounded-[2rem] bg-white shadow-sm">
 
-                    <p class="mt-5 text-sm font-medium uppercase tracking-[0.25em] text-[#b47b7b]">
-                        Fuzzy Fleur
-                    </p>
+                    <img
+                        src="https://images.unsplash.com/photo-1680563899402-26c3a712831f?auto=format&fit=crop&w=1000&q=85"
+                        alt="Beautiful pink flower bouquet"
+                        class="h-72 w-full object-cover"
+                    >
+
+                    <div class="p-7 text-center">
+
+                        <p class="text-sm font-medium uppercase tracking-[0.25em] text-[#b47b7b]">
+                            Fuzzy Fleur
+                        </p>
+
+                        <h2 class="mt-2 text-2xl font-bold text-[#493636]">
+                            Made to stay beautiful
+                        </h2>
+
+                        <p class="mt-3 text-sm leading-6 text-[#806f6f]">
+                            Thoughtful handmade flowers for birthdays, anniversaries,
+                            celebrations, and everyday surprises.
+                        </p>
+
+                    </div>
+                </div>
 
                     <h2 class="mt-2 text-2xl font-bold text-[#493636]">
                         Made to stay beautiful

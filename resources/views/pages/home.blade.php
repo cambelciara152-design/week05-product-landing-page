@@ -170,8 +170,12 @@
                             <div class="mt-5 grid grid-cols-2 gap-4">
 
                                 <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#f5dcd8] text-6xl">
-                                        🌹
+                                    <div class="overflow-hidden rounded-xl">
+                                        <img
+                                            src="https://images.unsplash.com/photo-1496290650525-29188efb34e0?auto=format&fit=crop&w=700&q=85"
+                                            alt="Rose bouquet"
+                                            class="h-32 w-full object-cover transition duration-500 hover:scale-105"
+                                        >
                                     </div>
 
                                     <h4 class="mt-3 font-semibold text-[#493636]">
@@ -188,8 +192,12 @@
                                 </div>
 
                                 <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#eadce8] text-6xl">
-                                        🌷
+                                    <div class="overflow-hidden rounded-xl">
+                                        <img
+                                            src="https://images.unsplash.com/photo-1716136243839-65d7135ec2e8?auto=format&fit=crop&w=700&q=85"
+                                            alt="Tulip bouquet"
+                                            class="h-32 w-full object-cover transition duration-500 hover:scale-105"
+                                        >
                                     </div>
 
                                     <h4 class="mt-3 font-semibold text-[#493636]">
@@ -206,8 +214,12 @@
                                 </div>
 
                                 <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#f3e5d0] text-6xl">
-                                        🌻
+                                    <div class="overflow-hidden rounded-xl">
+                                        <img
+                                            src="https://images.unsplash.com/photo-1779694540389-2e150caf6590?auto=format&fit=crop&w=700&q=85"
+                                            alt="Sunflower bouquet"
+                                            class="h-32 w-full object-cover transition duration-500 hover:scale-105"
+                                        >
                                     </div>
 
                                     <h4 class="mt-3 font-semibold text-[#493636]">
@@ -224,8 +236,12 @@
                                 </div>
 
                                 <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
-                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#e2e8d9] text-6xl">
-                                        💐
+                                    <div class="overflow-hidden rounded-xl">
+                                        <img
+                                            src="https://images.unsplash.com/photo-1680563899402-26c3a712831f?auto=format&fit=crop&w=700&q=85"
+                                            alt="Custom flower bouquet"
+                                            class="h-32 w-full object-cover transition duration-500 hover:scale-105"
+                                        >
                                     </div>
 
                                     <h4 class="mt-3 font-semibold text-[#493636]">
