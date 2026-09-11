@@ -68,53 +68,76 @@
         </section>
 
         {{-- Product Showcase --}}
-        <section class="bg-[#fffaf8] py-20 lg:py-24">
+        <section id="showcase" class="bg-[#fffaf8] py-20 lg:py-24">
             <div class="mx-auto max-w-7xl px-5 lg:px-8">
 
                 <div class="grid items-center gap-12 lg:grid-cols-2">
 
+                    {{-- Product Information --}}
                     <div>
                         <span class="text-sm font-semibold uppercase tracking-[0.2em] text-[#c97878]">
-                            Our Collection
+                            Product Showcase
                         </span>
 
                         <h2 class="mt-3 text-3xl font-bold text-[#493636] sm:text-4xl">
                             A bouquet made for your moment
                         </h2>
 
-                        <p class="mt-5 leading-7 text-[#806f6f]">
+                        <p class="mt-5 max-w-xl leading-7 text-[#806f6f]">
                             From simple single flowers to thoughtful full bouquets,
                             discover handmade pieces designed to make someone smile.
                         </p>
 
+                        {{-- Key Highlights --}}
                         <div class="mt-8 space-y-5">
 
                             <div class="flex gap-4">
-                                <div class="text-2xl">💐</div>
+                                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#f9e4e1] text-xl">
+                                    💐
+                                </div>
+
                                 <div>
-                                    <h3 class="font-semibold text-[#493636]">Signature Bouquets</h3>
-                                    <p class="mt-1 text-sm text-[#806f6f]">
-                                        Carefully arranged fuzzy-wire flowers for special occasions.
+                                    <h3 class="font-semibold text-[#493636]">
+                                        Signature Bouquets
+                                    </h3>
+
+                                    <p class="mt-1 text-sm leading-6 text-[#806f6f]">
+                                        Carefully arranged fuzzy-wire flowers for birthdays,
+                                        anniversaries, and other special occasions.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="flex gap-4">
-                                <div class="text-2xl">🌷</div>
+                                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#eadce8] text-xl">
+                                    🌷
+                                </div>
+
                                 <div>
-                                    <h3 class="font-semibold text-[#493636]">Single Flowers</h3>
-                                    <p class="mt-1 text-sm text-[#806f6f]">
-                                        Simple and sweet gifts for everyday appreciation.
+                                    <h3 class="font-semibold text-[#493636]">
+                                        Single Flowers
+                                    </h3>
+
+                                    <p class="mt-1 text-sm leading-6 text-[#806f6f]">
+                                        Simple and sweet handmade flowers for everyday
+                                        appreciation and small surprises.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="flex gap-4">
-                                <div class="text-2xl">🎀</div>
+                                <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#f3e5d0] text-xl">
+                                    🎀
+                                </div>
+
                                 <div>
-                                    <h3 class="font-semibold text-[#493636]">Custom Gifts</h3>
-                                    <p class="mt-1 text-sm text-[#806f6f]">
-                                        Personalized arrangements created around your idea.
+                                    <h3 class="font-semibold text-[#493636]">
+                                        Custom Gifts
+                                    </h3>
+
+                                    <p class="mt-1 text-sm leading-6 text-[#806f6f]">
+                                        Personalized arrangements created around your
+                                        preferred colors and gift ideas.
                                     </p>
                                 </div>
                             </div>
@@ -122,22 +145,137 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="flex min-h-64 items-center justify-center rounded-[2rem] bg-[#f5dcd8] text-8xl shadow-sm">
-                            🌹
+                    {{-- Product Preview --}}
+                    <div class="rounded-[2rem] bg-white p-5 shadow-xl shadow-[#8b6666]/10">
+
+                        <div class="rounded-[1.5rem] bg-[#f9e9e5] p-5">
+
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-medium uppercase tracking-[0.18em] text-[#b47b7b]">
+                                        Featured Collection
+                                    </p>
+
+                                    <h3 class="mt-1 text-xl font-bold text-[#493636]">
+                                        Handmade Favorites
+                                    </h3>
+                                </div>
+
+                                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-sm">
+                                    🌸
+                                </div>
+                            </div>
+
+                            {{-- Product Cards --}}
+                            <div class="mt-5 grid grid-cols-2 gap-4">
+
+                                <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#f5dcd8] text-6xl">
+                                        🌹
+                                    </div>
+
+                                    <h4 class="mt-3 font-semibold text-[#493636]">
+                                        Rose Bouquet
+                                    </h4>
+
+                                    <p class="mt-1 text-xs text-[#806f6f]">
+                                        Handmade flowers
+                                    </p>
+
+                                    <p class="mt-2 font-bold text-[#c97878]">
+                                        ₱399
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#eadce8] text-6xl">
+                                        🌷
+                                    </div>
+
+                                    <h4 class="mt-3 font-semibold text-[#493636]">
+                                        Tulip Bouquet
+                                    </h4>
+
+                                    <p class="mt-1 text-xs text-[#806f6f]">
+                                        Handmade flowers
+                                    </p>
+
+                                    <p class="mt-2 font-bold text-[#c97878]">
+                                        ₱399
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#f3e5d0] text-6xl">
+                                        🌻
+                                    </div>
+
+                                    <h4 class="mt-3 font-semibold text-[#493636]">
+                                        Sunflower
+                                    </h4>
+
+                                    <p class="mt-1 text-xs text-[#806f6f]">
+                                        Single flower
+                                    </p>
+
+                                    <p class="mt-2 font-bold text-[#c97878]">
+                                        ₱199
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+                                    <div class="flex h-32 items-center justify-center rounded-xl bg-[#e2e8d9] text-6xl">
+                                        💐
+                                    </div>
+
+                                    <h4 class="mt-3 font-semibold text-[#493636]">
+                                        Custom Mix
+                                    </h4>
+
+                                    <p class="mt-1 text-xs text-[#806f6f]">
+                                        Personalized bouquet
+                                    </p>
+
+                                    <p class="mt-2 font-bold text-[#c97878]">
+                                        ₱699
+                                    </p>
+                                </div>
+
+                            </div>
+
+                            {{-- Mobile Preview / Order Highlight --}}
+                            <div class="mt-5 rounded-2xl bg-[#493636] p-5 text-white">
+
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <p class="text-xs uppercase tracking-[0.15em] text-[#f1c5c0]">
+                                            Mobile-friendly
+                                        </p>
+
+                                        <h4 class="mt-1 font-semibold">
+                                            Easy to browse and order
+                                        </h4>
+                                    </div>
+
+                                    <div class="text-3xl">
+                                        📱
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 flex items-center justify-between rounded-xl bg-white/10 px-4 py-3 text-sm">
+                                    <span class="text-[#ead8d5]">
+                                        Custom Bouquet
+                                    </span>
+
+                                    <span class="font-semibold text-[#f1c5c0]">
+                                        ₱699
+                                    </span>
+                                </div>
+
+                            </div>
+
                         </div>
 
-                        <div class="mt-10 flex min-h-64 items-center justify-center rounded-[2rem] bg-[#eadce8] text-8xl shadow-sm">
-                            🌷
-                        </div>
-
-                        <div class="flex min-h-64 items-center justify-center rounded-[2rem] bg-[#f3e5d0] text-8xl shadow-sm">
-                            🌻
-                        </div>
-
-                        <div class="mt-10 flex min-h-64 items-center justify-center rounded-[2rem] bg-[#e2e8d9] text-8xl shadow-sm">
-                            💐
-                        </div>
                     </div>
 
                 </div>
